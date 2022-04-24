@@ -95,7 +95,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-Object(_modules_a__WEBPACK_IMPORTED_MODULE_0__["foo1"])()
+Object(_modules_a__WEBPACK_IMPORTED_MODULE_0__[/* foo1 */ "a"])()
 
 
 /***/ }),
@@ -103,9 +103,8 @@ Object(_modules_a__WEBPACK_IMPORTED_MODULE_0__["foo1"])()
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "foo1", function() { return foo1; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "foo2", function() { return foo2; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return foo1; });
+/* unused harmony export foo2 */
 const foo1 = () => {
   console.log('foo1')
 }
@@ -120,8 +119,7 @@ const foo2 = () => {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "foo3", function() { return foo3; });
+/* unused harmony export foo3 */
 const foo3 = () => {
   console.log('foo3')
 }

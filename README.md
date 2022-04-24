@@ -1,4 +1,4 @@
-# test-webpack-tree-shaking-demo
+# test-webpack-tree-shaking
 
 这是一个测试 webpack tree shaking 的 demo 项目，由于是边写边补充不同 demo 的，因此文档以 main 分支为主，而 demo 则可切换到不同 tag 下自行测试。
 例如 :bookmark: git tag: `initial-demo` 即表示接下来的代码示例在 `initial-demo` 这个 tag 里。
@@ -38,17 +38,16 @@ webpack 能标识出 dead code 的**前提**是使用 esm 规范来编写代码�
 
 1. 通过配置 terser 等压缩工具来移除 usedExports / 及 /#\_\_PURE\_\_/ 标识出的 DeadCode
 
-2. 没有模块内部的 sideEffects 的文件则整个跳过。
+2. 没有模块内部的 sideEffects 的且导出未被使用的文件则将整个跳过
 
 下面是详细的 demo 及文档，可以顺序阅读
 
 1. [起始 Demo](./docs/initial.md)
 2. [usedExports](./docs/usedExports.md)
-3. [commonjs](./docs/commonjs.md)
-4. [terser](./docs/terser.md)
-5. [sideEffects](./docs/sideEffects.md)
-6. [/\*#\_\_PURE\_\_\*/](./docs/pure.md)
-7. [其他补充](./docs/more.md)
+3. [terser](./docs/terser.md)
+4. [sideEffects](./docs/sideEffects.md)
+5. [/\*#\_\_PURE\_\_\*/](./docs/pure.md)
+6. [commonjs](./docs/commonJs.md)
 
 ## webpack tree shaking 的结论
 
@@ -59,7 +58,7 @@ webpack 能标识出 dead code 的**前提**是使用 esm 规范来编写代码�
 3. 在项目的 package.json 文件中，添加 "sideEffects" 属性。
 4. 使用 mode 为 "production" 的配置项以启用更多优化项，包括压缩代码与 tree shaking。
 
-经过这些测试，我得出的结论是：
+经过这些测试，得出的结论是：
 
 1. 第一点：必须使用 ESM 是正确的。
 2. 第二点：确保没有编译器将您的 ES2015 模块语法转换为 CommonJS 是正确的，但 @babel/preset-env 的默认行为已经不会影响到 tree shaking 了。

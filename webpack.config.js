@@ -10,5 +10,16 @@ module.exports = {
   },
   optimization: {
     usedExports: true,
+    minimize: true,
+    minimizer: [
+      new TerserPlugin({
+        terserOptions: {
+          mangle: false,
+          output: {
+            beautify: true,
+          },
+        },
+      }),
+    ],
   },
 }

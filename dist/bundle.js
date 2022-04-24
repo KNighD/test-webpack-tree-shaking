@@ -45,8 +45,8 @@
 }([ function(module, __webpack_exports__, __webpack_require__) {
     "use strict";
     __webpack_require__.r(__webpack_exports__);
-    var _modules_a__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(8);
-    __webpack_require__(4);
+    var _modules_a__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9);
+    __webpack_require__(4), __webpack_require__(8).foo4;
     Object(_modules_a__WEBPACK_IMPORTED_MODULE_0__.a)();
 }, , , , function(module, __webpack_exports__, __webpack_require__) {
     "use strict";
@@ -213,19 +213,23 @@
             }
         }, list;
     };
+}, function(module, exports) {
+    exports.foo4 = function() {
+        console.log("foo4");
+    };
 }, function(module, __webpack_exports__, __webpack_require__) {
     "use strict";
     __webpack_require__.d(__webpack_exports__, "a", (function() {
         return foo1;
     }));
-    __webpack_require__(9);
+    __webpack_require__(10);
     window.a = "a";
     var foo1 = function() {
         console.log("foo1");
     };
 }, function(module, __webpack_exports__, __webpack_require__) {
     "use strict";
-    var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5), _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__), _node_modules_css_loader_dist_cjs_js_a_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(10), options = {
+    var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5), _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__), _node_modules_css_loader_dist_cjs_js_a_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(11), options = {
         insert: "head",
         singleton: !1
     };

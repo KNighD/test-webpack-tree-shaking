@@ -41,14 +41,14 @@
         return __webpack_require__.d(getter, "a", getter), getter;
     }, __webpack_require__.o = function(object, property) {
         return Object.prototype.hasOwnProperty.call(object, property);
-    }, __webpack_require__.p = "", __webpack_require__(__webpack_require__.s = 2);
-}([ , , function(module, __webpack_exports__, __webpack_require__) {
+    }, __webpack_require__.p = "", __webpack_require__(__webpack_require__.s = 0);
+}([ function(module, __webpack_exports__, __webpack_require__) {
     "use strict";
     __webpack_require__.r(__webpack_exports__);
     var _modules_a__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(8);
     __webpack_require__(4);
     Object(_modules_a__WEBPACK_IMPORTED_MODULE_0__.a)();
-}, , function(module, __webpack_exports__, __webpack_require__) {
+}, , , , function(module, __webpack_exports__, __webpack_require__) {
     "use strict";
     var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5), _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__), _node_modules_css_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6), options = {
         insert: "head",
@@ -220,7 +220,7 @@
     }));
     __webpack_require__(9);
     window.a = "a";
-    const foo1 = () => {
+    var foo1 = function() {
         console.log("foo1");
     };
 }, function(module, __webpack_exports__, __webpack_require__) {

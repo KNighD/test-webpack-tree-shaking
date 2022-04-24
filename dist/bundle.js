@@ -41,18 +41,21 @@
         return __webpack_require__.d(getter, "a", getter), getter;
     }, __webpack_require__.o = function(object, property) {
         return Object.prototype.hasOwnProperty.call(object, property);
-    }, __webpack_require__.p = "", __webpack_require__(__webpack_require__.s = 0);
-}([ function(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-    __webpack_require__.r(__webpack_exports__);
-    var _modules_a__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
-    Object(_modules_a__WEBPACK_IMPORTED_MODULE_0__.a)();
-}, , function(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-    __webpack_require__.d(__webpack_exports__, "a", (function() {
-        return foo1;
-    })), window.a = "a";
-    const foo1 = () => {
-        console.log("foo1");
-    };
-} ]);
+    }, __webpack_require__.p = "", __webpack_require__(__webpack_require__.s = 4);
+}({
+    4: function(module, __webpack_exports__, __webpack_require__) {
+        "use strict";
+        __webpack_require__.r(__webpack_exports__);
+        var _modules_a__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6);
+        Object(_modules_a__WEBPACK_IMPORTED_MODULE_0__.a)();
+    },
+    6: function(module, __webpack_exports__, __webpack_require__) {
+        "use strict";
+        __webpack_require__.d(__webpack_exports__, "a", (function() {
+            return foo1;
+        })), window.a = "a";
+        const foo1 = () => {
+            console.log("foo1");
+        };
+    }
+});

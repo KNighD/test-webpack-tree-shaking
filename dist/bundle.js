@@ -41,16 +41,16 @@
         return __webpack_require__.d(getter, "a", getter), getter;
     }, __webpack_require__.o = function(object, property) {
         return Object.prototype.hasOwnProperty.call(object, property);
-    }, __webpack_require__.p = "", __webpack_require__(__webpack_require__.s = 0);
-}([ function(module, __webpack_exports__, __webpack_require__) {
+    }, __webpack_require__.p = "", __webpack_require__(__webpack_require__.s = 2);
+}([ , , function(module, __webpack_exports__, __webpack_require__) {
     "use strict";
     __webpack_require__.r(__webpack_exports__);
-    var _modules_a__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6);
-    __webpack_require__(2);
+    var _modules_a__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(8);
+    __webpack_require__(4);
     Object(_modules_a__WEBPACK_IMPORTED_MODULE_0__.a)();
 }, , function(module, __webpack_exports__, __webpack_require__) {
     "use strict";
-    var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3), _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__), _node_modules_css_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4), options = {
+    var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5), _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__), _node_modules_css_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6), options = {
         insert: "head",
         singleton: !1
     };
@@ -174,7 +174,7 @@
     };
 }, function(module, __webpack_exports__, __webpack_require__) {
     "use strict";
-    var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5), ___CSS_LOADER_EXPORT___ = __webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__)()(!1);
+    var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7), ___CSS_LOADER_EXPORT___ = __webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__)()(!1);
     ___CSS_LOADER_EXPORT___.push([ module.i, "body {\n  background-color: red;\n}", "" ]), 
     __webpack_exports__.a = ___CSS_LOADER_EXPORT___;
 }, function(module, exports, __webpack_require__) {
@@ -217,8 +217,23 @@
     "use strict";
     __webpack_require__.d(__webpack_exports__, "a", (function() {
         return foo1;
-    })), window.a = "a";
+    }));
+    __webpack_require__(9);
+    window.a = "a";
     const foo1 = () => {
         console.log("foo1");
     };
+}, function(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+    var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5), _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__), _node_modules_css_loader_dist_cjs_js_a_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(10), options = {
+        insert: "head",
+        singleton: !1
+    };
+    _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_a_css__WEBPACK_IMPORTED_MODULE_1__.a, options), 
+    _node_modules_css_loader_dist_cjs_js_a_css__WEBPACK_IMPORTED_MODULE_1__.a.locals;
+}, function(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+    var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7), ___CSS_LOADER_EXPORT___ = __webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__)()(!1);
+    ___CSS_LOADER_EXPORT___.push([ module.i, "body {\n  background-color: green;\n}", "" ]), 
+    __webpack_exports__.a = ___CSS_LOADER_EXPORT___;
 } ]);

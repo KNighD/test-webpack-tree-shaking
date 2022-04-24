@@ -1,3 +1,5 @@
+import './a.css'
+
 window.a = 'a'
 
 export const foo1 = () => {

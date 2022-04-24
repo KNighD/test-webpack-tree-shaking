@@ -15,4 +15,4 @@ const init_impure_foo = () => {
   return 'impure_foo'
 }
 
-export const impure_foo = init_impure_foo()
+export const impure_foo = /*#__PURE__*/ init_impure_foo()

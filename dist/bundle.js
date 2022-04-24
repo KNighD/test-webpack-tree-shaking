@@ -223,7 +223,6 @@
     const foo1 = () => {
         console.log("foo1");
     };
-    window.impure_foo = "impure_foo";
 }, function(module, __webpack_exports__, __webpack_require__) {
     "use strict";
     var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5), _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__), _node_modules_css_loader_dist_cjs_js_a_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(10), options = {

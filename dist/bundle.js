@@ -45,10 +45,9 @@
 }([ function(module, __webpack_exports__, __webpack_require__) {
     "use strict";
     __webpack_require__.r(__webpack_exports__);
-    var _modules_a__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
-    __webpack_require__(2);
+    var _modules_a__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
     Object(_modules_a__WEBPACK_IMPORTED_MODULE_0__.a)();
-}, function(module, __webpack_exports__, __webpack_require__) {
+}, , function(module, __webpack_exports__, __webpack_require__) {
     "use strict";
     __webpack_require__.d(__webpack_exports__, "a", (function() {
         return foo1;
@@ -56,7 +55,4 @@
     const foo1 = () => {
         console.log("foo1");
     };
-}, function(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-    window.b = "b";
 } ]);

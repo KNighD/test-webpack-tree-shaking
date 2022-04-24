@@ -1,3 +1,5 @@
+window.a = 'a'
+
 export const foo1 = () => {
   console.log('foo1')
 }

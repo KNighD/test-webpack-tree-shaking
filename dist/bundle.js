@@ -52,10 +52,11 @@
     "use strict";
     __webpack_require__.d(__webpack_exports__, "a", (function() {
         return foo1;
-    }));
+    })), window.a = "a";
     const foo1 = () => {
         console.log("foo1");
     };
 }, function(module, __webpack_exports__, __webpack_require__) {
     "use strict";
+    window.b = "b";
 } ]);
